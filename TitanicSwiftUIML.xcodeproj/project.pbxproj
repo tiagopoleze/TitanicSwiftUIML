@@ -24,6 +24,7 @@
 		4BF9BE57247DA72A008E38C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4BF9BE5A247DA72A008E38C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BF9BE5C247DA72A008E38C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF9BE62247DA77C008E38C3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		4BF9BE42247DA729008E38C3 = {
 			isa = PBXGroup;
 			children = (
+				4BF9BE62247DA77C008E38C3 /* README.md */,
 				4BF9BE4D247DA729008E38C3 /* TitanicSwiftUIML */,
 				4BF9BE4C247DA729008E38C3 /* Products */,
 			);
