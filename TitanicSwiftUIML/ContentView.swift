@@ -12,11 +12,10 @@ struct ContentView: View {
     @State private var pclass = "3"
     @State private var age = "36"
     @State private var sex = "male"
-    
-    var sexs = ["male", "female"]
-    var pclasses = ["1", "2", "3"]
-    
     @State private var result = 0.00
+    
+    private let sexs = ["male", "female"]
+    private let pclasses = ["1", "2", "3"]
     
     var body: some View {
         NavigationView {
@@ -67,7 +66,7 @@ struct ContentView: View {
                     let prediction = try model.prediction(Pclass: pclass, Sex: sex, Age: age)
                     let probs = prediction.SurvivedProbability
                     if let prob = probs[1] {
-                        result = prob
+                        result = prob * 100
                     }
                 } catch  {
                     fatalError("\(error)")
