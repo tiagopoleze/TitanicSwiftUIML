@@ -14,6 +14,7 @@
 		4BF9BE58247DA72A008E38C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF9BE57247DA72A008E38C3 /* Preview Assets.xcassets */; };
 		4BF9BE5B247DA72A008E38C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF9BE59247DA72A008E38C3 /* LaunchScreen.storyboard */; };
 		4BF9BE64247DA816008E38C3 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 4BF9BE63247DA816008E38C3 /* data */; };
+		4BF9BE66247DAD03008E38C3 /* Titanic.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9BE65247DAD03008E38C3 /* Titanic.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		4BF9BE5C247DA72A008E38C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BF9BE62247DA77C008E38C3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4BF9BE63247DA816008E38C3 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
+		4BF9BE65247DAD03008E38C3 /* Titanic.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Titanic.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		4BF9BE4D247DA729008E38C3 /* TitanicSwiftUIML */ = {
 			isa = PBXGroup;
 			children = (
+				4BF9BE65247DAD03008E38C3 /* Titanic.mlmodel */,
 				4BF9BE4E247DA729008E38C3 /* AppDelegate.swift */,
 				4BF9BE50247DA729008E38C3 /* SceneDelegate.swift */,
 				4BF9BE52247DA729008E38C3 /* ContentView.swift */,
@@ -155,6 +158,7 @@
 				4BF9BE4F247DA729008E38C3 /* AppDelegate.swift in Sources */,
 				4BF9BE51247DA729008E38C3 /* SceneDelegate.swift in Sources */,
 				4BF9BE53247DA729008E38C3 /* ContentView.swift in Sources */,
+				4BF9BE66247DAD03008E38C3 /* Titanic.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
